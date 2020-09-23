@@ -1,0 +1,126 @@
+.BreadBottom {
+  height: 13%;
+  width: 80%;
+  background: linear-gradient(#3134e5, #36abe2);
+  border-radius: 0 0 30px 30px;
+  box-shadow: inset -15px 0 #e53170;
+  margin: 2% auto;
+}
+
+.BreadTop {
+  height: 20%;
+  width: 80%;
+  background: linear-gradient(#3134e5, #36abe2);
+  border-radius: 50% 50% 0 0;
+  box-shadow: inset -15px 0 #e53170;
+  margin: 2% auto;
+  position: relative;
+}
+
+.Seeds1 {
+  width: 10%;
+  height: 15%;
+  position: absolute;
+  background-color: white;
+  left: 30%;
+  top: 50%;
+  border-radius: 40%;
+  transform: rotate(-20deg);
+  box-shadow: inset -2px -3px #c9c9c9;
+}
+
+.Seeds1:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: white;
+  left: -170%;
+  top: -260%;
+  border-radius: 40%;
+  transform: rotate(60deg);
+  box-shadow: inset -1px 2px #c9c9c9;
+}
+
+.Seeds1:before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: white;
+  left: 180%;
+  top: -50%;
+  border-radius: 40%;
+  transform: rotate(60deg);
+  box-shadow: inset -1px -3px #c9c9c9;
+}
+
+.Seeds2 {
+  width: 10%;
+  height: 15%;
+  position: absolute;
+  background-color: white;
+  left: 64%;
+  top: 50%;
+  border-radius: 40%;
+  transform: rotate(10deg);
+  box-shadow: inset -3px 0 #c9c9c9;
+}
+
+.Seeds2:before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: white;
+  left: 150%;
+  top: -130%;
+  border-radius: 40%;
+  transform: rotate(90deg);
+  box-shadow: inset 1px 3px #c9c9c9;
+}
+
+.Beetroot {
+  width: 80%;
+  height: 5%;
+  background: linear-gradient(#e49eb4, #7f0840, #bf144d);
+  margin: 2% auto;
+  border-radius: 15px;
+}
+.Cucumber {
+  width: 80%;
+  height: 3%;
+  background: linear-gradient(#b3eec1, #14bf3f, #087f18, transparent);
+  margin: 2% auto;
+  border-radius: 15px;
+}
+
+.Cheese {
+  width: 90%;
+  height: 4.5%;
+  margin: 2% auto;
+  background: linear-gradient(#f4d004, #d6bb22);
+  border-radius: 20px;
+}
+
+.Salad {
+  width: 85%;
+  height: 7%;
+  margin: 2% auto;
+  background: linear-gradient(#4b7f08, #057017);
+  border-radius: 20px;
+}
+
+.Eggplant {
+  width: 80%;
+  height: 3%;
+  background: linear-gradient(#8013bf, #c7ce97);
+  margin: 2% auto;
+}
+.Falafel {
+  width: 80%;
+  height: 10%;
+  background: linear-gradient(#7e5704, #d39205);
+  margin: 2% auto;
+  border-radius: 100px;
+}

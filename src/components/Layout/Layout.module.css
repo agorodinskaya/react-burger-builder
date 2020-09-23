@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
+
+.Body {
+  background-color: #333;
+  color: #fff;
+}
+.Content {
+  margin-top: 16px;
+  background-color: #333;
+  color: #fff;
+}
+
+.Header h1 {
+  font-family: "Indie Flower", cursive;
+  color: #f4b404;
+  font-size: 4rem;
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  grid-gap: 20px;
+  align-items: center;
+}
+.Header h1:before,
+.Header h1:after {
+  display: block;
+  content: "";
+  height: 10px;
+  background: linear-gradient(to left, #e53170, #3134e5, #f4d004, transparent);
+}
+.Header h1:after {
+  background: linear-gradient(to right, #e53170, #3134e5, #f4d004, transparent);
+}

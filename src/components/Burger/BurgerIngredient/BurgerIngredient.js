@@ -18,22 +18,46 @@ class BurgerIngredients extends Component {
         );
         break;
       case "beetroot":
-        ingredient = <div className={classes.Beetroot}></div>;
+        ingredient = (
+          <div className={classes.Beetroot}>
+            <p>beetroot</p>
+          </div>
+        );
         break;
       case "falafel":
-        ingredient = <div className={classes.Falafel}></div>;
+        ingredient = (
+          <div className={classes.Falafel}>
+            <p>falafel</p>
+          </div>
+        );
         break;
       case "cucumber":
-        ingredient = <div className={classes.Cucumber}></div>;
+        ingredient = (
+          <div className={classes.Cucumber}>
+            <p>cucumber salad</p>
+          </div>
+        );
         break;
       case "cheese":
-        ingredient = <div className={classes.Cheese}></div>;
+        ingredient = (
+          <div className={classes.Cheese}>
+            <p>cheese</p>
+          </div>
+        );
         break;
       case "eggpplant":
-        ingredient = <div className={classes.Eggplant}></div>;
+        ingredient = (
+          <div className={classes.Eggplant}>
+            <p>eggplant</p>
+          </div>
+        );
         break;
       case "salad":
-        ingredient = <div className={classes.Salad}></div>;
+        ingredient = (
+          <div className={classes.Salad}>
+            <p>salad</p>
+          </div>
+        );
         break;
       default:
         ingredient = null;

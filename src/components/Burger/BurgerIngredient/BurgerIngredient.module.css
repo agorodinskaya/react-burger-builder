@@ -96,7 +96,7 @@
 }
 
 .Cheese {
-  width: 90%;
+  width: 85%;
   height: 4.5%;
   margin: 2% auto;
   background: linear-gradient(#f4d004, #d6bb22);
@@ -104,10 +104,10 @@
 }
 
 .Salad {
-  width: 85%;
-  height: 7%;
+  width: 90%;
+  height: 5%;
   margin: 2% auto;
-  background: linear-gradient(#4b7f08, #057017);
+  background: linear-gradient(#86df13, #74d10a);
   border-radius: 20px;
 }
 
@@ -123,4 +123,5 @@
   background: linear-gradient(#7e5704, #d39205);
   margin: 2% auto;
   border-radius: 100px;
+  display: grid;
 }

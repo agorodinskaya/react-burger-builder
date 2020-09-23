@@ -5,7 +5,7 @@ const layout = (props) => (
   <Aux>
     <div className={classes.Content}>Toolbar, Sidedraw, Backdrop</div>
     <section className={classes.Header}>
-      <h1>Veggeterian burger:</h1>
+      <h1>Vegeterian burger:</h1>
     </section>
     <main className={classes.Content}>{props.children}</main>
   </Aux>

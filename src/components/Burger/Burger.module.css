@@ -8,9 +8,9 @@
   font-size: 1.2rem;
 }
 p {
-  color: #e53170;
-  border: 5px solid #e53170;
-  font-size: 2rem;
+  color: #d5eedd71;
+  /* border: 5px solid #e53170; */
+  /* font-size: 2rem; */
 }
 
 @media (min-width: 500px) and (min-height: 400px) {
